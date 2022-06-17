@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: white;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: 100vh;
+  font-size: 15px;
+}
+
+.Sedan {
+  padding: 2em;
+  background-color: hsl(31, 77%, 52%);
+  height: 80vh;
+}
+
+.Sedan h1 {
+  padding-bottom: 10px;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+.Sedan p {
+  padding-bottom: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.Suv {
+  padding: 2em;
+  background-color: hsl(184, 100%, 22%);
+  height: 80vh;
+}
+
+.Suv h1 {
+  padding-bottom: 10px;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+.Suv p {
+  padding-bottom: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+.Luxury {
+  padding: 2em;
+  background-color: hsl(179, 100%, 13%);
+  height: 80vh;
+}
+
+.Luxury h1 {
+  padding-bottom: 10px;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+.Luxury p {
+  padding-bottom: 115px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.button1 {
+  color: hsl(31, 77%, 52%);
+  border: none;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.button1:hover {
+  background-color: black;
+}
+
+.button2 {
+  color: hsl(184, 100%, 22%);
+  border: none;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.button2:hover {
+  background-color: black;
+}
+
+.button3 {
+  color: hsl(179, 100%, 13%);
+  border: none;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.button3:hover {
+  background-color: black;
+}
+
+.Flex {
+  background-color: white;
+  color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Grid {
+  background-color: white;
+  color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  width: 60%;
+  overflow: auto;
+}
+
+.nav a {
+  padding: 12px;
+  color: black;
+  font-size: 17px;
+  width: 60%;
+}
+
+.nav a:hover {
+  background-color: brown;
+}
+
+.linav {
+  align-items: center;
+}
